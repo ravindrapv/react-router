@@ -169,6 +169,15 @@ p{
     margin: 1rem 0;
 }
 
+.card-2{
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
 .card:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
