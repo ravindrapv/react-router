@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Path: router-app/src/styles/style.css */
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #333;
+    background: rgb(209, 239, 239)
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Path: router-app/src/styles/style.css */
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+aside{
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    height: 100%;
+    margin-top: 5.4rem;
+}
+.position{
+}
+aside a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    --tw-bg-opacity: 1;
+        background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    padding: 1rem;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+
+aside a:hover {
+    color: #ccc;
+}
+
+.width{
+    width: 100%;
+}
+.container-2{
+    width: 65%;
+    margin: 0 auto;
+    padding: 6rem;
+}
+
+li{
+    list-style: none;
+    padding: 1rem;
+}
+
+p{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.active{
+    color: orange;
+}
